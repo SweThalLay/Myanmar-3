@@ -1,0 +1,30 @@
+body{background-color:#DCDCDC}
+	/*.nav sub{
+		font-family: none;
+		list-style: none;
+		margin: none;
+		padding: none;
+	}*/
+	.nav li{
+		background: #00CED1;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		width: 250px;
+	}
+	.nav li a{
+		display:ruby-text;
+		text-decoration: none;
+		color: red;
+	}
+	.nav li a:hover{
+		background:pink;
+	}
+	.nav li{
+		border-right: 1px solid #20B2AA;
+		float: left; 
+	}
+	ul{
+		font-size: 20px;
+		text-align: justify;
+	}
