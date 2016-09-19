@@ -2,29 +2,20 @@
 <html>
  	<meta charset="utf-8">
 <title>မဂၤလာပါ</title>
-<head><center><h2><marquee bgcolor=#00CC66>ျမန္မာနိုင္ငံမွၾကိဳဆိုပါသည္</center></h2></marquee>
-
-	<link href="style.css" type="text/css" rel="stylesheet"/>
-</head><br>
-<style>
-	body{background-image: ('cake-designs14.jpg');
-		background-position: 100px;
-}
-
-</style>
+<head>
+<center><h2><marquee bgcolor=#00CC66>ျမန္မာနိုင္ငံမွၾကိဳဆိုပါသည္</center></h2></marquee>
+<link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
 <body>
-	<img src="bagan.jpg" width="1000" height="350"> 
+	<img src="image/bagan.jpg" width="1300" height="500"> 
 	<ul class="nav">
-	<li><a href="Home.html" >Home</a></li>
-	<li><a href="about.html">About</a></li>
-	<li><a href="contact.html">Contact</a></li>
-	<li><a href="Login.html">Login</a></li>
-	<li><a href="design.html">Design</a></li></ul>
-	<br>
-
-	<h3><U>ျမန္မာ့ရိုးရာ</U></h3>
+	<div class="menu">
+    <?php include 'header menu.php'
+    ;?>
+    </div></ul><br>
+	<h3><b>ျမန္မာ့ရိုးရာ</b></h3>
 	<ul type="circle">
-	<li>The name of the country of Burma (or Myanmar, as it is now officially known) is associated with the dominant ethnic group, the Burmese. Because of the current regime's lack of legitimacy and poor human rights record, it is common practice outside the country not to use the name Myanmar. The country fell under British colonial rule during the nineteenth century. When it became independent as the Union of Burma in 1948, the country almost immediately entered a state of civil war as ethnic minorities fought against the Burmese-dominated central government. Insurgencies by some ethnic groups continue. In 1962, the military leader Ne Win seized power. His regime sought to isolate the nation and institute nationalist policies under the label "the Burmese Road to Socialism." In 1972, the name of the country was changed to the Socialist Republic of the Union of Burma. After civil unrest in 1988, the military government changed the name to the Union of Myanmar.</li>
+	<p>The name of the country of Burma is associated with the dominant ethnic group, the Burmese. Because of the current regime's lack of legitimacy and poor human rights record, it is common practice outside the country not to use the name Myanmar. The country fell under British colonial rule during the nineteenth century. When it became independent as the Union of Burma in 1948, the country almost immediately entered a state of civil war as ethnic minorities fought against the Burmese-dominated central government. Insurgencies by some ethnic groups continue. In 1962, the military leader Ne Win seized power. His regime sought to isolate the nation and institute nationalist policies under the label "the Burmese Road to Socialism." In 1972, the name of the country was changed to the Socialist Republic of the Union of Burma. After civil unrest in 1988, the military government changed the name to the Union of Myanmar.</p>
 	</ul><br>
 	
 	<h3><U>Puppet</U></h3>
@@ -34,8 +25,11 @@
 	<h3><U>The State of the Physical and Social Sciences</U></h3>
 	<ul type="circe">
 	<li>Training in the physical and social sciences at national institutions such as Yangon University and Yangon Technical University is very limited. Since 1962, the social sciences have been almost nonexistent. Some social science research continues to take place, but most of it focuses on the relatively distant past. Institutions involved in such work include the Myanmar Historical Commission, Cultural Institute, Department of Archaeology, and Religious Affairs Department.</li></ul>
+	<footer>
+		
+	</footer>
 
-	<h2>ꕥꕥꕥꕥ ေက်းဇူးတင္ပါသည္ ꕥꕥꕥꕥ</h2>
+	ꕥꕥꕥꕥ ေက်းဇူးတင္ပါသည္ ꕥꕥꕥꕥ
 </body>
 	
 </html>
